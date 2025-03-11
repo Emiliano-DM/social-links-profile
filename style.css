@@ -10,6 +10,7 @@
 }
 
 body {
+    min-width: 300px;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -23,10 +24,11 @@ main{
 }
 
 #card-container {
+    min-width: 300px;
     width: 20%;
     background-color: hsl(0, 0%, 12%);
     margin: auto;
-    padding: 1.3%;
+    padding: 2%;
     border-radius: 13px;
     display: flex;
     flex-direction: column;
@@ -63,6 +65,35 @@ h2 {
 p {
     padding-bottom: 15px;
 }
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+li {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    
+}
+
+li a {
+    flex: 1;
+    text-decoration: none;
+    color: white;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 5px;
+    padding: 10px;
+    font-weight: 600;
+}
+
+a:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+}
+
 
 .attribution { 
     font-size: 11px; text-align: center; 
