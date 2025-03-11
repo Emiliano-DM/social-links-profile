@@ -19,12 +19,26 @@ main{
 
 #card-container {
     width: 20%;
-    height: 600px;
+    
     background-color: hsl(0, 0%, 12%);
     margin: auto;
+    padding: 1.3%;
     border-radius: 13px;
-    
+    display: flex;
+    flex-direction: column;
 
+}
+
+#img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    border-radius: 50%;
+    width: 30%;
+    
 }
 
 .attribution { 
